@@ -1,3 +1,6 @@
+//Kullanıcıdan alınan bir cümlenin içindeki birden fazla tekrar eden en uzun aralığı yazdırır.
+//Örnek: "Merhaba123Merhab" girdisine "Merhab" şeklinde cevap verir.
+
 fun main() {
     val text = readLine()!!.toLowerCase()
 
