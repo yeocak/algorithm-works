@@ -7,8 +7,8 @@ fun main(){
 
     var door = true
 
-    for(t in 2..a){
-        if(a%t == 0 && b%t == 0) {
+    for(t in 2..a){ // a ya da b'ye kadar ilerleyebiliriz, hangisi olduğu farketmez.
+        if(a%t == 0 && b%t == 0) { // eğer ikisinin de tam bölündüğü bir sayı mevcutsa door'u false olarak işaretliyoruz
             door = false
         }
     }
